@@ -525,168 +525,6 @@ height: auto;
 }
 
 
-@media (min-width: 576px) {
-    .parallax-bg {
-        height: 250px;
-    }
-
-    .parallax-bg p {
-        font-size: 26px;
-        line-height: 35px;
-    }
-
-    .parallax-bg p span:last-of-type {
-        font-size: 32px;
-    }
-}
-
-@media (min-width: 768px) {
-    .overlay-text {
-        padding: 30px;
-    }
-
-    .slick-prev, .slick-next {
-        height: 60px;
-    }
-    .slick-prev {
-        left: 30px;
-    }
-    .slick-next {
-        right: 30px;
-    }
-
-    .slick-carousel {
-        height: 700px;
-        margin-top: -125px;
-    }
-
-    .slide {
-        height: 700px;
-    }
-    .slide .slide-image {
-        background-position: center;
-    }
-
-    .slick-carousel .overlay {
-        bottom: 30px;
-    }
-
-    .slick-carousel .overlay-text h1 {
-        font-size: 30px;
-    }
-
-    .slick-carousel .overlay-text h2 {
-        font-size: 18px;
-    }
-
-    .home-beers {
-        font-size: 40px;
-        line-height: 52px;
-        background-position: 0;
-    }
-
-    .home-beers span {
-        font-size: 48px;
-    }
-
-    .home-beers span {
-        font-size: 40px;
-    }
-
-    .home-beers p span:nth-child(1) {
-        font-size: 48px;
-    }
-
-    .parallax-bg {
-        height: 300px;
-    }
-
-    .parallax-bg p {
-        font-size: 32px;
-        line-height: 42px;
-    }
-
-    .parallax-bg p span:last-of-type {
-        font-size: 38px;
-    }
-
-    .re-bottles .hops-image {
-        margin-top: -175px;
-        background-position: left top;
-        height: 300px;
-    }
-
-    .re-bottles>div div {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .re-bottles>div div:not(:nth-child(1)) span {
-        font-size: 48px;
-    }
-
-    .re-bottles>div div:nth-child(1) span {
-        font-size: 36px;
-    }
-
-    .re-bottles>div div:nth-child(2) {
-        margin-left: 50px;
-        margin-right: 0px;
-    }
-
-    .re-bottles>div div:nth-child(3) {
-        margin-left: 100px;
-    }
-
-    .re-bottles p {
-        font-size: 20px;
-        margin-left: 150px;
-    }
-}
-
-@media (min-width: 992px) {
-    .parallax-bg {
-        height: 300px;
-        background-attachment: fixed;
-        /* Not mobile safe */
-    }
-}
-
-
-
-
-@media (min-width: 768px) {
-    body > header .navbar {
-        height: 125px;
-    }
-    body > header .logo {
-        width: 460px;
-        height: auto;
-    }
-    body > header .navbar-nav li a {
-        font-size: 18px;
-    }
-    header .navbar-nav li:not(:last-of-type) a::after {
-        content: '|';
-        padding-left: 1em;
-        color: #fff !important;
-    }
-
-    main header .splash-image {
-        height: 450px;
-        margin-top: -125px;
-    }
-
-    body > footer .footer {
-        min-height: 300px;
-    }
-    body > footer .footer .logo-image {
-        width: 225px;
-    }
-    .footer-links li a{     
-        font-size: 18px;
-    }
-}
 
 
 /*
@@ -834,7 +672,155 @@ main header .splash-image#splash-beers{
     opacity: 1;
 }
 
+
+@media (min-width: 576px) {
+    .parallax-bg {
+        height: 250px;
+    }
+
+    .parallax-bg p {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .parallax-bg p span:last-of-type {
+        font-size: 32px;
+    }
+}
+
 @media (min-width: 768px) {
+    body > header .navbar {
+        height: 125px;
+    }
+    body > header .logo {
+        width: 460px;
+        height: auto;
+    }
+    body > header .navbar-nav li a {
+        font-size: 18px;
+    }
+    header .navbar-nav li:not(:last-of-type) a::after {
+        content: '|';
+        padding-left: 1em;
+        color: #fff !important;
+    }
+
+    main header .splash-image {
+        height: 450px;
+        margin-top: -125px;
+    }
+
+    body > footer .footer {
+        min-height: 300px;
+    }
+    body > footer .footer .logo-image {
+        width: 225px;
+    }
+    .footer-links li a{     
+        font-size: 18px;
+    }
+
+    .overlay-text {
+        padding: 30px;
+    }
+
+    .slick-prev, .slick-next {
+        height: 60px;
+    }
+    .slick-prev {
+        left: 30px;
+    }
+    .slick-next {
+        right: 30px;
+    }
+
+    .slick-carousel {
+        height: 700px;
+        margin-top: -125px;
+    }
+
+    .slide {
+        height: 700px;
+    }
+    .slide .slide-image {
+        background-position: center;
+    }
+
+    .slick-carousel .overlay {
+        bottom: 30px;
+    }
+
+    .slick-carousel .overlay-text h1 {
+        font-size: 30px;
+    }
+
+    .slick-carousel .overlay-text h2 {
+        font-size: 18px;
+    }
+
+    .home-beers {
+        font-size: 40px;
+        line-height: 52px;
+        background-position: 0;
+    }
+
+    .home-beers span {
+        font-size: 48px;
+    }
+
+    .home-beers span {
+        font-size: 40px;
+    }
+
+    .home-beers p span:nth-child(1) {
+        font-size: 48px;
+    }
+
+    .parallax-bg {
+        height: 300px;
+    }
+
+    .parallax-bg p {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .parallax-bg p span:last-of-type {
+        font-size: 38px;
+    }
+
+    .re-bottles .hops-image {
+        margin-top: -175px;
+        background-position: left top;
+        height: 300px;
+    }
+
+    .re-bottles>div div {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .re-bottles>div div:not(:nth-child(1)) span {
+        font-size: 48px;
+    }
+
+    .re-bottles>div div:nth-child(1) span {
+        font-size: 36px;
+    }
+
+    .re-bottles>div div:nth-child(2) {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .re-bottles>div div:nth-child(3) {
+        margin-left: 100px;
+    }
+
+    .re-bottles p {
+        font-size: 20px;
+        margin-left: 150px;
+    }
     .selector-title {
         font-size: 2rem;
     }
@@ -857,3 +843,12 @@ main header .splash-image#splash-beers{
         font-size: 1.2rem;
     }
 }
+
+@media (min-width: 992px) {
+    .parallax-bg {
+        height: 300px;
+        background-attachment: fixed;
+        /* Not mobile safe */
+    }
+}
+
